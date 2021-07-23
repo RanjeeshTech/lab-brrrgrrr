@@ -35,7 +35,7 @@ function renderAll() {
   renderPrice();
 }
 
-let renderPatty = () => {
+function renderPatty() {
   let patty = document.querySelector("#patty");
   //you can also use getElementById
   if (state.Patty) {
@@ -45,7 +45,7 @@ let renderPatty = () => {
   }
 }
 
-let renderCheese = () => {
+function renderCheese() {
   //Trial 1 - Change the visibility of cheese based on state by manipulating the DOM
   let cheese = document.querySelector("#cheese");
   if (state.Cheese) {
@@ -55,7 +55,7 @@ let renderCheese = () => {
   }
 }
 
-let renderTomatoes = () => {
+function renderTomatoes() {
   //Trial 1 - Change the visibility of Tomatoes based on state by manipulating the DOM
   let tomato = document.querySelector("#tomato");
   if (state.Tomatoes) {
@@ -65,7 +65,7 @@ let renderTomatoes = () => {
   }
 }
 
-let renderOnions = () => {
+function renderOnions() {
   //Trial 1 - Change the visibility of Onions based on state by manipulating the DOM
   let onion = document.querySelector("#onion");
   if (state.Onions) {
@@ -75,7 +75,7 @@ let renderOnions = () => {
   }
 }
 
-let renderLettuce = () => {
+function renderLettuce() {
   //Trial 1 - Change the visibility of Lettuce based on state by manipulating the DOM
   let lettuce = document.querySelector("#lettuce");
   if (state.Lettuce) {
